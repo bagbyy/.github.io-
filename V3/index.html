@@ -42,7 +42,8 @@
         var hash = new L.Hash(map);
         map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
         var bounds_group = new L.featureGroup([]);
-        var basemap0 = L.tileLayer('http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
+        var basemap0 = L.tileLayer('https://api.mapbox.com/styles/v1/bagbyy/cje3372jy0f3g2sjzxqucyto2/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYmFnYnl5IiwiYSI6ImNqZTMzNDU5NDZ0ZWgzNHFoOGJwY21jNTUifQ.fIBGmmWrhWsps9SP2p9baQ
+', {
             attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>,<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Mapdata: &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
             maxZoom: 28
         });
